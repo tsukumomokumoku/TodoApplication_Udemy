@@ -1,0 +1,70 @@
+/*
+共通
+*/
+body {
+  font-family: sans-serif;
+}
+.btn {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+.list-title {
+  margin-right: 8px;
+}
+/*
+入力エリア
+*/
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.input-text {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+/*
+未完了エリア
+*/
+.incomplate-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+/*
+完了エリア
+*/
+.complate-area {
+  background-color: #ffffe0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}

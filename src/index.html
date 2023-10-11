@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo Application</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input
+        id="add-text"
+        class="input-text"
+        type="text"
+        name=""
+        placeholder="ToDoを入力"
+      />
+      <button id="add-btn" class="btn">追加</button>
+    </div>
+
+    <div class="incomplate-area">
+      <h2 class="title">未完了のToDo</h2>
+      <ul id="incomplate-list"></ul>
+    </div>
+
+    <div class="complate-area">
+      <h2 class="title">完了したToDo</h2>
+      <ul id="complate-list"></ul>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
